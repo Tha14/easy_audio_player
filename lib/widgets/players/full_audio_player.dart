@@ -43,7 +43,7 @@ class FullAudioPlayer extends StatelessWidget {
                       ),
                     ),
                     //? title and album
-                    Text(metadata.title, style: Theme.of(context).textTheme.headline6),
+                    Text(metadata.title, style: Theme.of(context).textTheme.titleLarge),
                     Text(metadata.album ?? ''),
                   ],
                 );
@@ -59,7 +59,7 @@ class FullAudioPlayer extends StatelessWidget {
               Expanded(
                 child: Text(
                   "Playlist",
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.titleLarge,
                   textAlign: TextAlign.center,
                 ),
               ),
